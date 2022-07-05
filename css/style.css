@@ -420,7 +420,29 @@ padding: 20px;
     .banner_text button{
         font-size: 10px;
     }
+    .sec_banner {
+        padding-left: 0px;
+    }
+    .sec_content {
+        padding-right:0px;
+    }
 
+    .work_section h1 {
+        margin-top: 10px;
+    }
+
+    .left_right_padding {
+        padding: 20px 0px;
+    }
+    .our_quote p {
+        padding: 0px 10px;
+    }
+    .main_card .card {
+        margin-bottom: 20px;
+    }
+    .faq_section {
+        padding: 20px 0px;
+    }
 
 }
 
