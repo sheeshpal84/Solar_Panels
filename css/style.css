@@ -1,0 +1,546 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --span: #006AF3;
+    --button: #603EFF;
+    --heading: #13141C;
+    --samll-text: #424349;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size-adjust: 26px;
+}
+
+h6 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+    color: rgba(19, 20, 28, 0.8);
+}
+
+#main {
+    background-image: url(https://lh3.googleusercontent.com/7lDVWM-FUVwuyZTTQAZ0wu8fF-ch0TVUBm196z5g3G1Xwz1dsCjFuVjU69k_DZA-JGLrgV18nN3imtCLHJZ03hE=w1603);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+  background-attachment: fixed;
+}
+
+.left_right_padding {
+    padding: 20px 50px;
+}
+
+/* Banner css code start  */
+
+.banner_sec {
+    padding: 70px 0px 70px 50px;
+    animation-name: banner-section;
+    animation-duration: 10s;
+}
+
+@keyframes banner-section {
+    0%{
+        left:;
+    }
+
+    100%{
+        transform: translateX(-60%);
+    }
+}
+
+.banner_text strong {
+    color: var(--span);
+}
+
+.banner_text h1 {
+    font-weight: bold;
+    color: var(--heading);
+}
+
+.banner_text h4 {
+    color: var(--samll-text);
+    padding: 20px 0px;
+}
+
+.banner_text .my_btn:hover {
+    color: white;
+}
+
+.banner_text {
+    padding: 60px 100px 60px 0px;
+    width: 900px;
+    background-color: white;
+    position: relative;
+}
+
+.my_btn {
+    border-color: rgb(0, 106, 243);
+    background: rgb(0, 106, 243);
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    min-height: 60px;
+    min-width: 120px;
+    padding: 20px 32px;
+    font-size: 22px;
+    border-radius: 0px;
+}
+
+/* Banner css code End  */
+.sec_banner {
+    background-image: url(https://lh3.googleusercontent.com/TEHBbtP7NidzoSXClxcfsHag2nW6TFmCJ8ZpkY52vxWX8DU7hlmRmCmmCL3LNAB17uiNc-gY0WlKl9Mz71UtLWg=w1603);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+}
+
+.img_sec {
+    padding-top: 50px;
+}
+
+.sec_content {
+    padding-right: 50px;
+}
+
+.sec_content p {
+    font-size: 26px;
+    color: var(--samll-text);
+}
+
+.sec_content span {
+    color: var(--span);
+    font-weight: bold;
+}
+
+.sec_content button {
+    border: 1px solid var(--span);
+    color: var(--span);
+    font-weight: bold;
+    min-height: 60px;
+    min-width: 120px;
+    padding: 20px 32px;
+    font-size: 20px;
+    border-radius: 0px;
+    margin-top: 20px;
+}
+
+.sec_content button:hover {
+    background-color: var(--span);
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all o.5s;
+    transition-duration: 1s;
+}
+
+/* sec section start css  */
+
+
+/* how it work section css start  */
+.work_section h1 {
+    font-weight: bolder;
+    margin-top: 100px;
+}
+
+.work_section span {
+    color: var(--span);
+}
+
+.trd_section_card .card-body {
+    position: absolute;
+}
+
+.trd_section_card .card {
+    align-items: center;
+    flex-direction: row;
+}
+
+.trd_section_card .card h5 {
+    background-color: var(--span);
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trd_section_card .card p {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* how it work section  css end  */
+
+
+/* our_quote  section css start  */
+
+.our_quote h1 {
+color: #fff;
+font-size: 70px;
+}
+
+.our_quote p {
+    font-size: 30px;
+    color: #fff;
+    padding: 0px 40px;
+}
+
+.main_card .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.main_card .card h5 {
+    font-size: 30px;
+    color: var(--heading);
+    font-weight: bold;
+}
+
+.main_card .card p {
+     font-size:  22px;
+     text-align: justify;
+}
+
+/* our_quote section css end  */
+
+/* FAQ section css start  */
+
+.faq_section  {
+    padding: 60px 0px;
+}
+
+.faq_section p {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.faq_section strong {
+    color: var(--span);
+}
+
+.faq_section h6 {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+/* FAQ section css end  */
+
+/* Financing card css strat  */
+.card_section h2 {
+    font-weight: bold;
+}
+
+.card_section h2 strong {
+    color: var(--span);
+}
+
+.card_section p {
+    font-size: 26px;
+    padding: 20px 50px 0px 0px;
+}
+
+.card_section button {
+    border: 1px solid var(--span);
+    color: var(--span);
+    font-weight: bold;
+    min-height: 60px;
+    min-width: 120px;
+    padding: 20px 32px;
+    font-size: 20px;
+    border-radius: 0px;
+    margin-top: 20px;
+}
+
+.card_section button:hover {
+    background-color: var(--span);
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all o.5s;
+    transition-duration: 1s;
+}
+
+/* Financing card css end */
+
+
+/* solar section css start  */
+
+.solar_section h1 {
+font-weight: bold;
+color: #fff;
+font-size: 70px;
+margin-top: 40px;
+}
+
+.solar_section p {
+    font-size: 30px;
+    padding: 20px;
+    color: #fff;
+}
+
+
+.solar_section  button {
+    border: 1px solid var(--span);
+    background-color: var(--span);
+    color: var(--span);
+    font-weight: bold;
+    min-height: 60px;
+    min-width: 120px;
+    padding: 10px 32px;
+    font-size: 20px;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.solar_section button:hover {
+    background-color: var(--button);
+    color: #fff;
+    transition: all o.5s;
+    transition-duration: 1s;
+}
+
+/* solar section css end  */
+
+
+/* footer section css start  */
+.icon_footer  i {
+padding: 0px 20px;
+font-size: 26px;
+color: #fff;
+}
+
+.icon_footer i:hover {
+    color: var(--span);
+}
+.footer_end {
+padding: 20px;
+}
+
+
+.padding_footer_section { 
+    padding: 0px 50px;
+}
+
+/* footer section css end  */
+
+@media (max-width:1100px){
+    .banner_text{
+        width: 700px;
+    }
+
+    .banner_text h1{
+        font-size: 50px;
+    }
+
+    .banner_text h4{
+        font-size: 20px;
+    }
+
+    .banner_text button{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:958px){
+    .our_quote h1{
+        font-size: 45px;
+    }
+
+    .our_quote p{
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width:885px) {
+    .banner_text {
+        width: 600px;
+    }
+
+    .sec_content,.card_section{
+        margin-top: 30px;
+    }
+
+    .no_pressure{
+        margin-bottom: 30px;
+    }
+
+    
+
+    
+}
+@media (max-width:880px) {
+    .sec_banner {
+        text-align: center;
+    }
+
+    .work_section h1 {
+        font-size: 55px;
+    }
+
+       
+}
+
+@media (max-width:775px) {
+    .banner_text {
+        width: 500px;
+    }
+
+
+}
+
+@media (max-width:660px) {
+    .banner_text {
+        width: 400px;
+    }
+
+    .banner_text h1{
+        font-size: 30px;
+    }
+
+    .banner_text h4{
+        font-size: 16px;
+    }
+
+    .banner_text button{
+        font-size: 10px;
+    }
+
+
+}
+
+@media (max-width:530px) {
+    .banner_text {
+        width: 280px;
+    }
+
+    .banner_text h1 {
+        font-size: 18px;
+    }
+
+    .banner_text h4 {
+        font-size: 10px;
+    }
+
+    .banner_text button {
+        font-size: 5px;
+        padding: 5px;
+        min-height: 38px;
+        min-width: 95px;
+    }
+
+    .sec_content p{
+        font-size: 16px;
+    }
+    
+    .sec_content button{
+        font-size: 16px;
+        padding:10px;
+    }
+
+    .work_section h1{
+        font-size: 30px;
+    }
+
+    .trd_section_card .card p {
+        font-size: 20px;
+    }
+    
+
+    .our_quote h1{
+        font-size: 25px;
+    }
+
+    .our_quote p {
+             font-size: 18px;
+         }
+
+    .main_card .card h5{
+        font-size: 20px;
+    }
+
+    .main_card .card p{
+        font-size: 16px;
+    }
+
+        .faq_section p{
+            font-size: 20px;
+        }
+    .faq_section h5 {
+        font-size: 16px;
+                 }
+
+    .faq_section h6{
+        font-size: 14px;
+                }
+
+    .card_section h2{
+        font-size: 24px;
+    }
+
+    .card_section p {
+        font-size: 16px;
+    }
+
+    .card_section button,.solar_section button{
+        min-height: 20px;
+        min-width: 40px;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .solar_section h1{
+        font-size: 30px;
+    }
+
+    .solar_section p{
+        font-size: 20px;
+    }
+
+
+    .icon_footer i{
+        font-size: 12px;
+    }
+
+    .footer_end{
+        font-size: 12px;
+    }
+
+        .trd_section_card .card p{
+        font-size: 16px;
+    }
+
+        .trd_section_card .card h5{
+            width: 80px;
+            height: 80px;
+        }
+
+}
+
