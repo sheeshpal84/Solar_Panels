@@ -53,19 +53,7 @@ p {
 /* Banner css code start  */
 
 .banner_sec {
-    padding: 70px 0px 70px 50px;
-    animation-name: banner-section;
-    animation-duration: 10s;
-}
-
-@keyframes banner-section {
-    0%{
-        left:;
-    }
-
-    100%{
-        transform: translateX(-60%);
-    }
+padding: 70px 0px 70px 50px;
 }
 
 .banner_text strong {
