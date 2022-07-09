@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
-body{
+body {
     font-family: 'Roboto Condensed', sans-serif;
     overflow-x: hidden;
 }
 
 .poppins {
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 * {
@@ -15,13 +15,13 @@ body{
 }
 
 :root {
-    --span: #006AF3;
+    --span: #cc202c;
     --button: #603EFF;
     --heading: #13141C;
     --samll-text: #424349;
 }
 
-.card-text{
+.card-text {
     text-align: left;
 }
 
@@ -51,14 +51,14 @@ h6 {
 
 p {
     font-size: 1rem;
-    color: rgba(19,20,28,0.8);
+    color: rgba(19, 20, 28, 0.8);
 }
 
 #main {
-    background-image: url(https://lh3.googleusercontent.com/7lDVWM-FUVwuyZTTQAZ0wu8fF-ch0TVUBm196z5g3G1Xwz1dsCjFuVjU69k_DZA-JGLrgV18nN3imtCLHJZ03hE=w1603);
+    background-image: url(../iamges/bg-background.jpg);
     /* background-repeat: no-repeat; */
     background-size: cover;
-  background-attachment: fixed;
+    background-attachment: fixed;
 }
 
 .left_right_padding {
@@ -68,7 +68,7 @@ p {
 /* Banner css code start  */
 
 .banner_sec {
-padding: 70px 0px 70px 50px;
+    padding: 70px 0px 70px 50px;
 }
 
 .banner_text strong {
@@ -87,9 +87,9 @@ padding: 70px 0px 70px 50px;
 }
 
 .banner_text .my_btn:hover {
-    background-color: rgb(0,84,192);
-    border-color: rgb(0,84,192);
-    color: rgba(255,255,255,1);
+    background-color: #cc202c;
+    border-color: #cc202c;
+    color: rgba(255, 255, 255, 1);
 }
 
 .banner_text {
@@ -100,8 +100,8 @@ padding: 70px 0px 70px 50px;
 }
 
 .my_btn {
-    border-color: rgb(0, 106, 243);
-    background: rgb(0, 106, 243);
+    border-color: #cc202c;
+    background:#a1151e;
     color: rgba(255, 255, 255, 1);
     font-weight: bold;
     min-height: 60px;
@@ -169,7 +169,7 @@ padding: 70px 0px 70px 50px;
     font-weight: bolder;
     margin-top: 100px;
     font-size: 3rem;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .work_section span {
@@ -178,18 +178,28 @@ padding: 70px 0px 70px 50px;
 
 .trd_section_card .card-body {
     position: absolute;
-    
+
 }
 
-.main_card .card{
+
+.main_card .card {
     max-height: 400px;
     height: 400px;
-    
-   
 }
-.main_card .card p{
-    text-align: left !important;
+
+.main_card i {
+    font-size: 80px;
+    color: var(--span);
+    transition: all 0.5s;
+}
+.main_card:hover i {
+color: #a1151e;
+transition: all 0.5s;
+}
+
+.main_card .card p {
     font-size: 20px !important;
+    padding-top: 10px;
 }
 
 .trd_section_card .card {
@@ -216,16 +226,17 @@ padding: 70px 0px 70px 50px;
     color: #fff;
     font-weight: bold;
     margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
 }
-
 /* how it work section  css end  */
 
 
 /* our_quote  section css start  */
 
 .our_quote h1 {
-color: #fff;
-font-size: 3rem;
+    color: #fff;
+    font-size: 3rem;
 }
 
 .our_quote p {
@@ -248,18 +259,19 @@ font-size: 3rem;
     font-size: 1.5rem;
     color: var(--heading);
     font-weight: bold;
+    padding-top: 10px;
 }
 
 .main_card .card p {
     font-size: 1.125rem;
-     text-align: justify;
+    text-align: justify;
 }
 
 /* our_quote section css end  */
 
 /* FAQ section css start  */
 
-.faq_section  {
+.faq_section {
     padding: 60px 0px;
 }
 
@@ -285,7 +297,7 @@ font-size: 3rem;
 .card_section h2 {
     font-weight: bold;
     font-size: 3rem;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .card_section h2 strong {
@@ -296,7 +308,7 @@ font-size: 3rem;
     font-size: 1.125rem;
     padding: 20px 50px 0px 0px;
     line-height: 1.75;
-    
+
 }
 
 .card_section button {
@@ -325,11 +337,12 @@ font-size: 3rem;
 /* solar section css start  */
 
 .solar_section h1 {
-font-weight: bold;
-color: #fff;
-font-size: 3.5rem;
-font-family: 'Poppins',sans-serif;
-margin-top: 40px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    line-height: 1.50;
 }
 
 .solar_section p {
@@ -339,7 +352,7 @@ margin-top: 40px;
 }
 
 
-.solar_section  button {
+.solar_section button {
     border: 1px solid var(--span);
     background-color: var(--span);
     color: var(--span);
@@ -367,70 +380,76 @@ margin-top: 40px;
 
 
 /* footer section css start  */
-.icon_footer  i {
-padding: 0px 20px;
-font-size: 26px;
-color: #fff;
+.icon_footer i {
+    padding: 0px 20px;
+    font-size: 26px;
+    color: #fff;
 }
 
 .icon_footer i:hover {
     color: var(--span);
 }
+
 .footer_end {
-padding: 20px;
-font-size: 0.875rem;
-color: rgba(19,20,28,0.8);
-font-family: 'Roboto Condensed', sans-serif;
+    padding: 20px;
+    font-size: 0.875rem;
+    color: rgba(19, 20, 28, 0.8);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footer_end a  {
+color: #cc202c;
+text-decoration: none;
 }
 
 
-.padding_footer_section { 
+.padding_footer_section {
     padding: 0px 50px;
 }
 
 /* footer section css end  */
 
 @media (max-width:1190px) {
-    .trd_section_card .card p{
+    .trd_section_card .card p {
         font-size: 22px;
     }
 
-        .main_card .card p{
-            font-size: 16px !important;
-        }
+    .main_card .card p {
+        font-size: 16px !important;
+    }
 
-                .our_quote h1{
-                    font-size: 58px !important;
-                }
+    .our_quote h1 {
+        font-size: 58px !important;
+    }
 }
 
-@media (max-width:1100px){
-    .banner_text{
+@media (max-width:1100px) {
+    .banner_text {
         width: 700px;
     }
 
-    .banner_text h1{
+    .banner_text h1 {
         font-size: 50px;
     }
 
-    .banner_text h4{
+    .banner_text h4 {
         font-size: 1.75rem;
-        color: rgba(19,20,28,0.8);
+        color: rgba(19, 20, 28, 0.8);
         font-family: 'Roboto Condensed', sans-serif;
 
     }
 
-    .banner_text button{
+    .banner_text button {
         font-size: 16px;
     }
 }
 
-@media(max-width:958px){
-    .our_quote h1{
+@media(max-width:958px) {
+    .our_quote h1 {
         font-size: 45px;
     }
 
-    .our_quote p{
+    .our_quote p {
         font-size: 25px;
     }
 }
@@ -441,18 +460,20 @@ font-family: 'Roboto Condensed', sans-serif;
         width: 600px;
     }
 
-    .sec_content,.card_section{
+    .sec_content,
+    .card_section {
         margin-top: 30px;
     }
 
-    .no_pressure{
+    .no_pressure {
         margin-bottom: 30px;
     }
 
-    
 
-    
+
+
 }
+
 @media (max-width:880px) {
     .sec_banner {
         text-align: center;
@@ -462,7 +483,7 @@ font-family: 'Roboto Condensed', sans-serif;
         font-size: 55px;
     }
 
-       
+
 }
 
 @media (max-width:775px) {
@@ -474,32 +495,34 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 @media (max-width:660px) {
-   
+
     .img_sec {
-        padding-top: 20px; 
+        padding-top: 20px;
         padding-left: 10px;
     }
-   
+
     .banner_text {
         width: 400px;
     }
 
-    .banner_text h1{
+    .banner_text h1 {
         font-size: 30px;
     }
 
-    .banner_text h4{
+    .banner_text h4 {
         font-size: 16px;
     }
 
-    .banner_text button{
+    .banner_text button {
         font-size: 10px;
     }
+
     .sec_banner {
         padding-left: 0px;
     }
+
     .sec_content {
-        padding-right:0px;
+        padding-right: 0px;
     }
 
     .work_section h1 {
@@ -509,21 +532,24 @@ font-family: 'Roboto Condensed', sans-serif;
     .padding_footer_section {
         padding: 0px;
     }
-    
-.solar_section h1 {
-    font-size: 2.5rem;
-    margin-top: 20px;
-}
+
+    .solar_section h1 {
+        font-size: 2.5rem;
+        margin-top: 20px;
+    }
 
     .left_right_padding {
         padding: 20px 0px;
     }
+
     .our_quote p {
         padding: 0px 10px;
     }
+
     .main_card .card {
         margin-bottom: 20px;
     }
+
     .faq_section {
         padding: 20px 0px;
     }
@@ -550,52 +576,53 @@ font-family: 'Roboto Condensed', sans-serif;
         min-width: 95px;
     }
 
-    .sec_content p{
+    .sec_content p {
         font-size: 16px;
-    }
-    
-    .sec_content button{
-        font-size: 16px;
-        padding:10px;
     }
 
-    .work_section h1{
+    .sec_content button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .work_section h1 {
         font-size: 30px;
     }
 
     .trd_section_card .card p {
         font-size: 20px;
     }
-    
 
-    .our_quote h1{
+
+    .our_quote h1 {
         font-size: 25px;
     }
 
     .our_quote p {
-             font-size: 18px;
-         }
+        font-size: 18px;
+    }
 
-    .main_card .card h5{
+    .main_card .card h5 {
         font-size: 20px;
     }
 
-    .main_card .card p{
+    .main_card .card p {
         font-size: 16px;
     }
 
-        .faq_section p{
-            font-size: 20px;
-        }
+    .faq_section p {
+        font-size: 20px;
+    }
+
     .faq_section h5 {
         font-size: 16px;
-                 }
+    }
 
-    .faq_section h6{
+    .faq_section h6 {
         font-size: 14px;
-                }
+    }
 
-    .card_section h2{
+    .card_section h2 {
         font-size: 24px;
     }
 
@@ -603,37 +630,38 @@ font-family: 'Roboto Condensed', sans-serif;
         font-size: 16px;
     }
 
-    .card_section button,.solar_section button{
+    .card_section button,
+    .solar_section button {
         min-height: 20px;
         min-width: 40px;
         padding: 5px 10px;
         font-size: 12px;
     }
 
-    .solar_section h1{
+    .solar_section h1 {
         font-size: 30px;
     }
 
-    .solar_section p{
+    .solar_section p {
         font-size: 20px;
     }
 
 
-    .icon_footer i{
+    .icon_footer i {
         font-size: 12px;
     }
 
-    .footer_end{
+    .footer_end {
         font-size: 12px;
     }
 
-        .trd_section_card .card p{
+    .trd_section_card .card p {
         font-size: 16px;
     }
 
-        .trd_section_card .card h5{
-            width: 80px;
-            height: 80px;
-        }    
+    .trd_section_card .card h5 {
+        width: 80px;
+        height: 80px;
+    }
 
 }
