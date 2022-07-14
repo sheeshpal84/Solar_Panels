@@ -94,7 +94,7 @@ p {
 
 .banner_text {
     padding: 60px 100px 60px 0px;
-    width: 900px;
+    width: 800px;
     background-color: white;
     position: relative;
 }
@@ -368,14 +368,11 @@ transition: all 0.5s;
 }
 
 .solar_section button:hover {
-    background-color: var(--span);
+    background-color: #a1151e;
     color: #fff;
     transition: all o.5s;
     transition-duration: 1s;
 }
-
-
-
 /* solar section css end  */
 
 
@@ -389,7 +386,6 @@ transition: all 0.5s;
 .icon_footer i:hover {
     color: var(--span);
 }
-
 .footer_end {
     padding: 20px;
     font-size: 0.875rem;
